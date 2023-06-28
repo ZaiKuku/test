@@ -1,0 +1,372 @@
+/* 動態 */
+.pos {
+  position: absolute;
+  width: 700px;
+  height: 397px;
+}
+
+/* 外框 */
+.box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 700px;
+  height: 397px;
+
+  background: #ffffff;
+  border: 1px solid rgba(211, 211, 211, 0.56);
+  border-radius: 20px;
+}
+
+/* pen 1 */
+.pen {
+  position: absolute;
+  visibility: hidden;
+  width: 15.63px;
+  height: 18px;
+
+  background: url(pen.png);
+}
+
+/* 留言 */
+.comment_pos {
+  position: absolute;
+  width: 620px;
+  height: 50px;
+  margin-top: 327px;
+  margin-left: 40px;
+}
+
+/* Group 39 */
+.Group39 {
+  position: absolute;
+  margin-left: 65px;
+  width: 555.47px;
+  height: 50px;
+}
+
+/* Rectangle 28 */
+.Rectangle28 {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 0.47px;
+  position: absolute;
+  width: 554.99px;
+  height: 50px;
+
+  background: rgba(217, 217, 217, 0.39);
+  border: 1px solid #f0f0f0;
+  border-radius: 30px;
+}
+
+/* 留個言吧 */
+.message {
+  position: relative;
+  width: 555.47px;
+  height: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #777777;
+}
+
+/* 個人照片 */
+.profile_photo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+  background: url(./src/個人照片.png);
+}
+
+/* 幾人點讚分享 */
+.num_likes_pos {
+  position: absolute;
+  margin-top: 272px;
+  margin-left: 0px;
+  width: 700px;
+  height: 35px;
+}
+
+/* 線 */
+.line {
+  position: absolute;
+  width: 700px;
+  height: 0px;
+  margin-top: 35px;
+  margin-left: 0px;
+  border: 1px solid #d9d9d9;
+}
+
+/* 7 人喜歡這則貼文 */
+.num_likes {
+  position: absolute;
+  width: 219.54px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #5c5c5c;
+}
+
+/* 1 則留言 */
+.num_comments {
+  position: absolute;
+  width: 129px;
+  height: 31px;
+  margin-top: 1px;
+  margin-left: 536px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: right;
+
+  color: #5c5c5c;
+}
+
+/* Ellipse 37 */
+.Ellipse37 {
+  box-sizing: border-box;
+
+  position: absolute;
+  visibility: hidden;
+  width: 14.76px;
+  height: 17px;
+
+  background: #d9d9d9;
+  border: 1px solid #ffffff;
+}
+
+/* Ellipse 38 */
+.Ellipse38 {
+  box-sizing: border-box;
+
+  position: absolute;
+  visibility: hidden;
+  width: 14.76px;
+  height: 17px;
+
+  background: #d9d9d9;
+  border: 1px solid #ffffff;
+}
+
+/* Ellipse 39 */
+.Ellipse39 {
+  box-sizing: border-box;
+
+  position: absolute;
+  visibility: hidden;
+  width: 14.76px;
+  height: 17px;
+
+  background: #d9d9d9;
+  border: 1px solid #ffffff;
+}
+
+/* 三大功能 */
+.func_pos {
+  position: absolute;
+  width: 630px;
+  height: 50px;
+  margin-top: 212px;
+  margin-left: 35px;
+}
+
+/* Group 38 */
+.Group38 {
+  position: absolute;
+  visibility: hidden;
+  width: 621.18px;
+  height: 30.55px;
+}
+
+/* Icons/Fb-comment */
+.pos_Fb-comment {
+  position: absolute;
+  width: 16.77px;
+  height: 21.82px;
+}
+
+/* Comment */
+.Fb-comment {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Facebook/Secondary/Gray 300 */
+  background: #65676b;
+}
+
+/* Icons/Fb-share */
+.pos_Fb-share {
+  position: absolute;
+  width: 17.6px;
+  height: 22.91px;
+}
+
+/* Share */
+.Fb-share {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 4.17%;
+  bottom: 3.67%;
+
+  /* Facebook/Secondary/Gray 300 */
+  background: #65676b;
+}
+
+/* heart-2 1 */
+.pos_heart {
+  position: absolute;
+  width: 23.47px;
+  height: 30.55px;
+
+  background: url(heart-2.png);
+}
+
+/* Ellipse 40 */
+.Ellipse40 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 100px;
+  background: #f85c53;
+}
+
+/* Ellipse 41 */
+.Ellipse41 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 45px;
+  border-radius: 100px;
+  background: #d3d3d3;
+}
+
+/* Line 14 */
+.Line14 {
+  position: absolute;
+  width: 630px;
+  height: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: 1px solid #bfbfbf;
+}
+
+/* Line 15 */
+.Line15 {
+  position: absolute;
+  width: 630px;
+  height: 0px;
+  margin-top: 50px;
+  margin-left: 0px;
+  border: 1px solid #bfbfbf;
+}
+
+/* 動態本身 */
+.pos_post {
+  position: absolute;
+  width: 409.02px;
+  height: 151px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+/* 動態動態動態動態動態動態，動態動態動態動態。 */
+.post_content {
+  position: absolute;
+  width: 409.02px;
+  height: 58.81px;
+  margin-top: 112.19px;
+  margin-left: 40px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+
+/* Group 40 */
+.Group40 {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 161.58px;
+  height: 76.81px;
+}
+
+/* Ellipse 24 */
+.Ellipse24 {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+  width: 75.19px;
+  height: 75px;
+
+  background: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  border-radius: 100px;
+}
+
+/* 你的朋友 */
+.poster {
+  position: absolute;
+  width: 74.37px;
+  height: 58.81px;
+  margin-top: 18px;
+  margin-left: 87.22px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #000000;
+}
+
+/* 一小時前 */
+.time {
+  position: absolute;
+  width: 63.16px;
+  height: 26px;
+  margin-top: 39px;
+  margin-left: 87.22px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  /* or 185% */
+
+  color: #919191;
+}
